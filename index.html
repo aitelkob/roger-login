@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-<!-- Mirrored from storage.googleapis.com/themevessel-products/logdy/main/login-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Oct 2019 00:17:04 GMT -->
+
 <head>
-    <!-- Google Tag Manager -->
+    <!-- Google Tag Manager 
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+r:'';j.async=true;j.src=
         '../../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TAGCODE');</script>
+    })(window,document,'script','dataLayer','GTM-TAGCODE');</script> -->
     <!-- End Google Tag Manager -->
-    <title>Logdy - Login and Register HTML5 Template</title>
+    <title>Roger - Login </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <!-- External CSS libraries -->
@@ -43,50 +43,33 @@
             <div class="col-lg-7 col-md-12 col-pad-0 form-section">
                 <div class="login-inner-form">
                     <div class="details">
-                        <a href="#">
-                            <img src="assets/img/logos/logo-2.png" alt="logo">
-                        </a>
-                        <h3>Sign into your account</h3>
-                        <form action="http://storage.googleapis.com/themevessel-products/logdy/index.html" method="GET">
+                           <h1>Roger login</h1>              
+                        <h3></h3>
+                        <form action="" method="post" onsubmit="return validateform()">
                             <div class="form-group">
-                                <input type="email" name="email" class="input-text" placeholder="Email Address">
+                                <input type="text" name="name" id = "user"class="input-text" placeholder="User">
                             </div>
                             <div class="form-group">
-                                <input type="password" name="Password" class="input-text" placeholder="Password">
+                                <input type="password" name="password" id = "password"class="input-text" placeholder="Password">
                             </div>
-                            <div class="checkbox clearfix">
-                                <div class="form-check checkbox-theme">
-                                    <input class="form-check-input" type="checkbox" value="" id="rememberMe">
-                                    <label class="form-check-label" for="rememberMe">
-                                        Remember me
-                                    </label>
-                                </div>
-                                <a href="forgot-password-3.html">Forgot Password</a>
-                            </div>
+                            
                             <div class="form-group">
                                 <button type="submit" class="btn-md btn-theme btn-block">Login</button>
                             </div>
-                            <p class="none-2">Don't have an account?<a href="register-3.html"> Register here</a></p>
+                            
                         </form>
                     </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-12 col-pad-0 bg-img none-992">
                 <div class="informeson">
-                    <div class="btn-section">
-                        <a href="#" class="active link-btn">Login</a>
-                        <a href="register-3.html" class="link-btn">Register</a>
-                    </div>
-                    <h3>We make spectacular</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
-                    <div class="social-box">
-                        <ul class="social-list clearfix">
-                            <li><a href="#" class="facebook-color"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" class="twitter-color"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="google-color"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#" class="linkedin-color"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
+               
+                    <h2>Objectives</h2>
+                    <h1></h1>
+                    <p>This subject aims to iniate you to the basics about system and network administration
+                        and let you access to the infra subject roger-skyline-2</p>
+                        aitelkobnadiacbc@gmail.com
+                        Casablanca Booking Company
                 </div>
             </div>
         </div>
@@ -95,6 +78,23 @@
 <!-- Login 3 end -->
 
 <!-- External JS libraries -->
+<script>  
+    function validateform(){  
+    var name=document.getElementById("user").value;  
+    var password=document.getElementById("password").value;  
+
+    if (name==null || name=="" || password == ""){  
+      alert("Name and pass can't be blank");  
+      return false;  
+    }else if( name != "user" && password != "123" ){  
+      alert("Password incorect");  
+      return false;  }
+      else{
+
+      }
+
+      }  
+    </script>  
 <script src="assets/js/jquery-2.2.0.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
@@ -102,5 +102,5 @@
 
 </body>
 
-<!-- Mirrored from storage.googleapis.com/themevessel-products/logdy/main/login-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Oct 2019 00:17:13 GMT -->
+
 </html>
